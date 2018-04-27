@@ -1,0 +1,82 @@
+body {
+	background: lightblue url("back.jpg") no-repeat left top fixed;
+	background-position: 50% 50%;
+}
+
+h1{
+	text-align: center;
+	color: red;
+	font-size: 70px;
+	border-bottom: thin solid green;
+}
+h2 {
+	font-style: italic;
+	font-weight: bold;
+}
+#story{
+ border: 5px groove;
+ border-top-left-radius: 25px;
+ font-size: 20px;
+ font-family: "Times New Roman", Times, serif;
+}
+ul.a {list-style: square;}
+ul.b {list-style: circle;}
+ul.c {list-style: lower-roman;}
+ul.d {list-style: lower-alpha;}
+ul.e {list-style: disc;}
+
+
+
+#ureview{
+	
+	border-style: inset;
+	 border-bottom-style: double;
+	 font-variant: small-caps;
+}
+
+
+#review{
+	border: 2px solid red;
+	border-top-style: dotted;
+    padding: 10px;
+    border-bottom-left-radius:15%;
+    box-shadow: 5px 10px red;
+}
+
+#title_border {
+    border: 10px double yellow;
+    border-left-color: blue;
+    border-right-color: gray;
+    border-radius: 55px;
+    border-top-width: thin;
+    padding: 25px;
+    
+    background-origin: border-box;
+    background-image: url("avg.jpg");
+
+}
+
+#dotted_border {
+    border: 10px dotted black;
+    padding: 15px;
+    background: lightblue;
+    background-clip: border-box;   
+    opacity: 0.5; 
+}
+
+
+#borderimg1 { 
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(border2.png) 20 round;
+    border-image-slice: 20%
+}
+
+#borderimg2 { 
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(border2.png) 20 stretch;
+    border-image-slice: 20%
+}
+
+
