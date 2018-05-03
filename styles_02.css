@@ -1,0 +1,68 @@
+h2.rtl {
+    direction: rtl;
+}
+
+#center {
+	text-align: center; 
+	text-decoration: overline;
+	text-shadow: 1px 4px #C0C0C0;
+	text-transform: uppercase;
+ }
+#left  {
+	text-align: left;
+	text-decoration: line-through;
+	text-transform: lowercase;
+}
+#right  {
+	text-align: right;
+	text-decoration: underline;
+	text-transform: capitalize;
+}
+#justify  {
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+div.a {
+	width: 150px;
+    word-wrap: break-word;
+    border: 1px solid #000000;
+
+}
+p.wrap {
+	white-space: normal;
+
+  }
+
+div.b {
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    animation: mymove 5s infinite;
+    animation-direction: alternate;
+    animation-play-state
+}
+
+@keyframes mymove {
+    0%   {background: red; left: 0px; top: 0px;}
+    25%  {background: yellow; left: 600px; top: 0px;}
+    50%  {background: blue; left: 600px; top: 200px;}
+    75%  {background: green; left: 200px; top: 200px;}
+    100% {background: red; left: 150px; top: 0px;}
+}
+
+
+div.c {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition-property: width;
+    transition-duration: 5s;
+    transition-delay: 2s;
+}
+
+
+div:hover {
+    width: 300px;
+}
